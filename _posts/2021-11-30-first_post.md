@@ -1,3 +1,3 @@
-# Hello World
+# Summary of different Machine Learning Concepts
 
-This is my first post.
+Hello all! For this post, I am going to go into a couple of different Machine Learning Concepts I've learned about and are valueable tools for analyzing data!
