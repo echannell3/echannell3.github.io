@@ -1,2 +1,2 @@
-Hello and welcome to my blog! The purpose of this blog is to help me document and learn about different Machine Learning topics in depth.
+Hello and welcome to my portfolio! The purpose of this portfolio is to document the different data science projects I have worked on and showcase them!
 
