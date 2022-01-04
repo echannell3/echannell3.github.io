@@ -2,6 +2,14 @@
 *** Disclaimer this is currently in the process of being rewritten***
 This project was completed for the Senior Design Competition at Georgia Tech for Industrial Engineers. This is a year long competition where a team of students connect with a company as a client and completes a project for them using the skills learned from the Industrial Engineering curriculum. You can read more specific details about the competition in general here: https://www.isye.gatech.edu/academics/bachelors/current-students/senior-design.
 
+# Introduction
+For this project, our team worked with NAPA Autoparts as our client with a specific focus on analyzing their newly built Nashville Distribution Center to see how we could improve operations. I was responsible for creating a tool that could be used by NAPA Autoparts that would lead to reduce labor cost from their putwall within the warehouse. The putwall for NAPA was a term used to describe their sorting system. Essentially, stores are assigned groups on the putwall and the pick and sorting for them would be done in waves. With NAPA's current system the putwall assignments were static where the store groups wouldn't be evaulated until months at a time passed. The tool I ended up creating allowed for a dynamic system instead where the putwall assignments would change daily to save on labor cost.
+
+# The Dynamic Putwall
+The tool I created to be used as a Dynamic Putwall 
+
+***OLD***
+
 For this project, our team worked with NAPA Autoparts as our client with a specific focus on analyzing their newly built Nashville Distribution Center to see how we could improve operations. We focused on 3 key solutions to further improve their operations and save them money on their day to day operations. These 3 solutions were (1) implementing a dynamic store-to-putwall assignmet, (2) create a fast pick zone, and (3) modify putaway locations. I was in charge of creating the dynamic store-to-putwall delivarable and will go into detail about what I did to complete this part of the project. The work our team did for this project led to us winning the competition and make a lasting impact on the company!
 
 # Introduction
