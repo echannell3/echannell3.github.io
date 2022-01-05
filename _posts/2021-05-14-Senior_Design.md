@@ -10,6 +10,20 @@ The tool I created for the putwall was created in python and can be seen below.
 
 ![image](https://user-images.githubusercontent.com/42851869/148291358-415ebeba-0b6f-4160-94a8-07a77799edd6.png)
 
+Breakingdown of the tool:
+1. The user uploads the previous putwall assignments and the orders to be picked today.
+2. This determines the number of putwalls to use. The user can either manually choose the number of putwalls or choosing the dynamic option which will choose the number of putwalls based on number of stores ordering and volume.
+3. This determines the number of minimum and maximum number of orderlines assigned to each putwall
+4. The number of iterations run by the program to find a solution. The more iterations the better the solution.
+5. The maximum number of stores switching putwalls so in the case of 60 a max of 60 stores would be assigned new putwalls.
+
+Once these are all filled out the user would press assign the program would run and produce files that display the new assignments for the putwalls and expected savings.
+
+# Breakdown of the Tool
+The tool at its core balances the costs of labor associated with changing the putwall with the expected savings in putwall labor and labor in picking the items in the warehouse. Calculating the cost of labor for changing the putwall is pretty easy to do since there is a flat time cost of changing a stores location. Similiarly calculating the savings of using more or less putwalls was also pretty straightforward in calculating and easy to get. The challenging savings to calculate is the how much time is saved for the new picking routes. In order to calculate this, the program had to simulate the new distance the employees would have to travel in the warehouse to pick all the stores items on the putwalls. 
+
+
+
 
 ***OLD***
 
