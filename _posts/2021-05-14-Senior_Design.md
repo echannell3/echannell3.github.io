@@ -5,8 +5,11 @@ This project was completed for the Senior Design Competition at Georgia Tech for
 # Introduction
 For this project, our team worked with NAPA Autoparts as our client with a specific focus on analyzing their newly built Nashville Distribution Center to see how we could improve operations. I was responsible for creating a tool that could be used by NAPA Autoparts that would lead to reduce labor cost from their putwall within the warehouse. The putwall for NAPA was a term used to describe their sorting system. Essentially, stores are assigned groups on the putwall and the pick and sorting for them would be done in waves. With NAPA's current system the putwall assignments were static where the store groups wouldn't be evaulated until months at a time passed. The tool I ended up creating allowed for a dynamic system instead where the putwall assignments would change daily to save on labor cost.
 
-# The Dynamic Putwall
-The tool I created to be used as a Dynamic Putwall 
+# The Dynamic Putwall Tool
+The tool I created for the putwall was created in python and can be seen below.
+
+![image](https://user-images.githubusercontent.com/42851869/148291358-415ebeba-0b6f-4160-94a8-07a77799edd6.png)
+
 
 ***OLD***
 
