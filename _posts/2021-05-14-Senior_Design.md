@@ -32,7 +32,9 @@ For the first step of the tool, the uploaded files are checked and ensured that 
 
 The next step involves in simulating a picker's path given the orderlines and putwall setup. In this stage the function determines the distance the picker travels in feet between each item picked in their path and sums it together to give the total distance to collect all the items for the putwall. This function when being built was compared with true distance and travel distance and was highly accurate.
 
-The third step works by building new solutions for the putwall. To build new solutions, I used the genetic algorithm to generate new solutions. 
+The third step works by building new solutions for the putwall. To build new solutions, I used the genetic algorithm to generate new solutions. The genetic algorithm was utilized because the program has a limited amount of time to run and when attempting to solve the problem using other methods such as Google OR tools VRP package the time to solve was far too long. The genetic algorithm was setup so that the distance traveled for picking, the number of putwalls utilizes, and number of moves for moving stores on the putwall were accounted for in the cost function. In addition, there were high penalty costs associated with having too much order volume on a putwall or having too many stores on a putwall to ensure that these solutions would not be picked as an improvement.
+
+The final step once the final putwall is decided was to take the newly assigned putwalls and export them as csv and image file detailing the new putwall assignments and order bactches for each putwall. In addition, the estimated time for implementing the new putwalls would also be displayed so that NAPA would know their expected savings from completing these moves.
 
 
 
